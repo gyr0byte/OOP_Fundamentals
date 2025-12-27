@@ -1,12 +1,14 @@
 <div align="center">
 
-# Java OOP Practice Projects
+![Java OOP Banner](https://capsule-render.vercel.app/api?type=rounded&color=0:2b2d42,100:8d99ae&height=150&text=Java%20OOP%20Practice%20Projects&fontColor=edf2f4&fontSize=32&fontAlign=50&fontAlignY=55)
 
 <sub>Hands-on mini-samples + quick games to sharpen fundamentals.</sub>
 
 <br>
 
-`Java` · `OOP` · `Console Games`
+<img alt="Java" src="https://img.shields.io/badge/JDK-17%2B-6cace4?style=for-the-badge&logo=openjdk&logoColor=1b1b1b">
+<img alt="OOP" src="https://img.shields.io/badge/Focus-OOP-b7e4c7?style=for-the-badge&logo=databricks&logoColor=1b1b1b">
+<img alt="Games" src="https://img.shields.io/badge/Console-Games-f9c5d5?style=for-the-badge&logo=gamepad&logoColor=1b1b1b">
 
 </div>
 
@@ -16,7 +18,7 @@
 
 ## Highlights
 
-- Sleek folder map with one-click run targets
+- Sleek folder map with quick run targets
 - Copy/paste quickstart commands for every package
 - Game trio (Quiz, RPS, Slot) to apply concepts immediately
 
@@ -41,34 +43,78 @@
 
 From the repo root:
 
+<details>
+<summary><b>ObjectAndClass (no package)</b></summary>
+
 ```bash
-# Classes without packages
 javac ObjectAndClass/*.java
 java Demo
+```
 
-# With packages (compile first, then run)
+</details>
 
+<details>
+<summary><b>arrayObject</b></summary>
+
+```bash
+javac arrayObject/*.java
 java arrayObject.Main
+```
 
+</details>
+
+<details>
+<summary><b>constructorsOverloading</b></summary>
+
+```bash
 javac constructorsOverloading/*.java
 java constructorsOverloading.Main
+```
 
+</details>
+
+<details>
+<summary><b>Inheritance</b></summary>
+
+```bash
 javac Inheritance/*.java
 java Inheritance.Main
+```
 
+</details>
+
+<details>
+<summary><b>staticKeyword</b></summary>
+
+```bash
 javac staticKeyword/*.java
 java staticKeyword.Main
 java staticKeyword.MainMath
+```
 
+</details>
+
+<details>
+<summary><b>SuperKeyword</b></summary>
+
+```bash
 javac SuperKeyword/*.java
 java SuperKeyword.Main
+```
 
-# Games
+</details>
+
+<details>
+<summary><b>Games (projects)</b></summary>
+
+```bash
 javac projects/*.java
 java QuizGame
 java RockPaperScissors
 java SlotMachine
 ```
+
+</details>
 
 ## Learning Checklist
 
