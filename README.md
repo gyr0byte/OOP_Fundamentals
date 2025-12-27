@@ -1,18 +1,24 @@
-# Java OOP Practice Projects
-
-Short, self-contained Java examples to practice core OOP concepts and a few small console games.
-
-## What's Inside
+<div align="center">
 
 # Java OOP Practice Projects
 
-Hands-on Java OOP mini-samples plus a few console games to practice fundamentals fast.
+<sub>Hands-on mini-samples + quick games to sharpen fundamentals.</sub>
+
+<br>
+
+`Java` · `OOP` · `Console Games`
+
+</div>
+
+---
+
+> Clean, runnable examples for classes, constructors, inheritance, statics, and a few games to make practice fun.
 
 ## Highlights
 
-- Clear, bite-sized examples for each concept
-- Ready-to-run commands for every folder
-- Small games to make learning stick
+- Sleek folder map with one-click run targets
+- Copy/paste quickstart commands for every package
+- Game trio (Quiz, RPS, Slot) to apply concepts immediately
 
 ## Folder Map
 
@@ -41,7 +47,7 @@ javac ObjectAndClass/*.java
 java Demo
 
 # With packages (compile first, then run)
-javac arrayObject/*.java
+
 java arrayObject.Main
 
 javac constructorsOverloading/*.java
