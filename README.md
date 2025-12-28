@@ -30,8 +30,11 @@
 | arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                             |
 | constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                 |
 | Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                             |
+| MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                        |
+| Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                             |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath` |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                            |
+| toString/                | Object string representation            | `toString.Main`                                |
 | projects/                | Quiz, Rock-Paper-Scissors, Slot Machine | `QuizGame`, `RockPaperScissors`, `SlotMachine` |
 
 ## Prerequisites
@@ -84,6 +87,26 @@ java Inheritance.Main
 </details>
 
 <details>
+<summary><b>MethodOverriding</b></summary>
+
+```bash
+javac MethodOverriding/*.java
+java MethodOverriding.Main
+```
+
+</details>
+
+<details>
+<summary><b>Abstraction</b></summary>
+
+```bash
+javac Abstraction/*.java
+java Abstraction.Main
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -105,6 +128,16 @@ java SuperKeyword.Main
 </details>
 
 <details>
+<summary><b>toString</b></summary>
+
+```bash
+javac toString/*.java
+java toString.Main
+```
+
+</details>
+
+<details>
 <summary><b>Games (projects)</b></summary>
 
 ```bash
@@ -121,13 +154,16 @@ java SlotMachine
 - ✅ Classes, objects, and instance vs. static members
 - ✅ Constructors and overloading patterns
 - ✅ Inheritance and method reuse/overriding
+- ✅ Method overriding and runtime polymorphism
+- ✅ Abstract classes and methods
+- ✅ toString() method customization
 - ✅ Arrays of objects and iteration
 - ✅ User-input-driven console games
 
 ## Next Steps
 
 - Add input validation and error handling (especially in the games)
-- Extend examples to encapsulation, abstraction, interfaces, and polymorphism
+- Extend examples to interfaces, encapsulation, and advanced polymorphism
 - Add lightweight tests for gameplay and utility methods
 
 ---
