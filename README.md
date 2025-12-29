@@ -36,7 +36,7 @@
 
 ## 🚀 Features
 
-- **13 Core OOP Concepts**: From basic classes to advanced polymorphism
+- **14 Core OOP Concepts**: From basic classes to advanced polymorphism
 - **Interactive Games**: 3 console games (Quiz, Rock-Paper-Scissors, Slot Machine)
 - **Ready-to-Run**: Each folder is self-contained with compilation instructions
 - **Beginner-Friendly**: Clear examples with minimal boilerplate
@@ -55,6 +55,8 @@
 | Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                            |
 | RuntimePolymorphism/     | Dynamic method dispatch at runtime      | `RuntimePolymorphism.Main`                     |
 | Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                             |
+| Aggregation/             | Object composition and ownership        | `Aggregation.Main`                             |
+| Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                           |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath` |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                            |
 | toString/                | Object string representation            | `toString.Main`                                |
@@ -160,6 +162,26 @@ java Abstraction.Main
 </details>
 
 <details>
+<summary><b>Aggregation</b></summary>
+
+```bash
+javac Aggregation/*.java
+java Aggregation.Main
+```
+
+</details>
+
+<details>
+<summary><b>Encapsulation</b></summary>
+
+```bash
+javac Encapsulation/*.java
+java Encapsulation.Main
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -211,6 +233,8 @@ java SlotMachine
 - ✅ Method overriding and runtime polymorphism
 - ✅ Polymorphism and dynamic method dispatch
 - ✅ Abstract classes and methods
+- ✅ Aggregation and object composition
+- ✅ Encapsulation with getters/setters
 - ✅ toString() method customization
 - ✅ Arrays of objects and iteration
 - ✅ User-input-driven console games
@@ -228,6 +252,8 @@ OOP/
 ├── Polymorphism/            # Single interface, multiple forms
 ├── RuntimePolymorphism/     # Dynamic method dispatch
 ├── Abstraction/             # Abstract classes and methods
+├── Aggregation/             # Object composition and ownership
+├── Encapsulation/           # Access control with getters/setters
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
