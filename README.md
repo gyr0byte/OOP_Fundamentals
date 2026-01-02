@@ -44,23 +44,23 @@
 
 ## 📂 Folder Map
 
-| Folder                   | Focus                                   | Run Entry                                      |
-| ------------------------ | --------------------------------------- | ---------------------------------------------- |
-| ObjectAndClass/          | Constructors, fields, and methods       | `Demo`                                         |
-| arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                             |
-| constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                 |
-| Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                             |
-| Interface/               | Contracts and multiple implementation   | `Interface.Main`                               |
-| MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                        |
-| Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                            |
-| RuntimePolymorphism/     | Dynamic method dispatch at runtime      | `RuntimePolymorphism.Main`                     |
-| Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                             |
-| Aggregation/             | Object composition and ownership        | `Aggregation.Main`                             |
-| Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                           |
-| staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath` |
-| SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                            |
-| toString/                | Object string representation            | `toString.Main`                                |
-| projects/                | Quiz, Rock-Paper-Scissors, Slot Machine | `QuizGame`, `RockPaperScissors`, `SlotMachine` |
+| Folder                   | Focus                                   | Run Entry                                               |
+| ------------------------ | --------------------------------------- | ------------------------------------------------------- |
+| ObjectAndClass/          | Constructors, fields, and methods       | `Demo`                                                  |
+| arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                                      |
+| constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                          |
+| Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                                      |
+| Interface/               | Contracts and multiple implementation   | `Interface.Main`                                        |
+| MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                                 |
+| Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                                     |
+| RuntimePolymorphism/     | Dynamic method dispatch at runtime      | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2` |
+| Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                                      |
+| Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                      |
+| Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                    |
+| staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`          |
+| SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                     |
+| toString/                | Object string representation            | `toString.Main`                                         |
+| projects/                | Quiz, Rock-Paper-Scissors, Slot Machine | `QuizGame`, `RockPaperScissors`, `SlotMachine`          |
 
 ## 📋 Prerequisites
 
@@ -147,6 +147,7 @@ java Polymorphism.Main
 ```bash
 javac RuntimePolymorphism/*.java
 java RuntimePolymorphism.Main
+java RuntimePolymorphism.Main2
 ```
 
 </details>
