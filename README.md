@@ -85,9 +85,12 @@ java arrayObject.Main
 <details>
 <summary><b>ArrayList</b></summary>
 
+Includes a user-input example in `UserInput` (builds an `ArrayList<String>` from console input).
+
 ```bash
 javac ArrayList/*.java
 java ArrayList.Main
+java ArrayList.UserInput
 ```
 
 </details>
