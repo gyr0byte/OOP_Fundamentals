@@ -2,58 +2,43 @@
 
 ![Java OOP Banner](https://capsule-render.vercel.app/api?type=rounded&color=0:2b2d42,100:8d99ae&height=150&text=Java%20OOP%20Practice%20Projects&fontColor=edf2f4&fontSize=32&fontAlign=50&fontAlignY=55)
 
-<sub>Hands-on mini-samples + quick games to sharpen fundamentals.</sub>
-
 <br>
-
-<img alt="Java" src="https://img.shields.io/badge/JDK-17%2B-6cace4?style=for-the-badge&logo=openjdk&logoColor=1b1b1b">
 <img alt="OOP" src="https://img.shields.io/badge/Focus-OOP-b7e4c7?style=for-the-badge&logo=databricks&logoColor=1b1b1b">
 <img alt="Games" src="https://img.shields.io/badge/Console-Games-f9c5d5?style=for-the-badge&logo=gamepad&logoColor=1b1b1b">
 
-</div>
-
 ---
-
-> Clean, runnable examples for classes, constructors, inheritance, statics, and a few games to make practice fun.
 
 ## 📑 Table of Contents
 
 - [Highlights](#highlights)
 - [Features](#features)
-- [Folder Map](#folder-map)
 - [Prerequisites](#prerequisites)
 - [Quickstart](#quickstart)
-- [Learning Checklist](#learning-checklist)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## ✨ Highlights
 
-- 🗂️ Sleek folder map with quick run targets
 - 📋 Copy/paste quickstart commands for every package
 - 🎮 Game trio (Quiz, RPS, Slot) to apply concepts immediately
 
-## 🚀 Features
-
 - **14 Core OOP Concepts**: From basic classes to advanced polymorphism
-- **Interactive Games**: 3 console games (Quiz, Rock-Paper-Scissors, Slot Machine)
 - **Ready-to-Run**: Each folder is self-contained with compilation instructions
 - **Beginner-Friendly**: Clear examples with minimal boilerplate
-- **Modern Java**: Compatible with JDK 17+
 
 ## 📂 Folder Map
 
 | Folder                   | Focus                                   | Run Entry                                               |
 | ------------------------ | --------------------------------------- | ------------------------------------------------------- |
-| ObjectAndClass/          | Constructors, fields, and methods       | `Demo`                                                  |
+| ObjectAndClass/          | Basic class and object creation         | `Demo` (no package)                                     |
 | arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                                      |
 | constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                          |
+| Composition/             | Has-a relationship (car with engine)    | `Composition.Main`                                      |
 | Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                                      |
-| Interface/               | Contracts and multiple implementation   | `Interface.Main`                                        |
+| Interface/               | Contracts via interfaces                | `Interface.Main`                                        |
 | MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                                 |
+| RuntimePolymorphism/     | Dynamic dispatch examples               | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2` |
 | Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                                     |
-| RuntimePolymorphism/     | Dynamic method dispatch at runtime      | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2` |
 | Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                                      |
 | Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                      |
 | Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                    |
@@ -87,6 +72,16 @@ java Demo
 ```bash
 javac arrayObject/*.java
 java arrayObject.Main
+```
+
+</details>
+
+<details>
+<summary><b>Composition</b></summary>
+
+```bash
+javac Composition/*.java
+java Composition.Main
 ```
 
 </details>
@@ -247,6 +242,7 @@ OOP/
 ├── ObjectAndClass/          # Basic class and object creation
 ├── arrayObject/             # Working with arrays of custom objects
 ├── constructorsOverloading/ # Multiple constructor patterns
+├── Composition/             # Has-a relationship (car with engine)
 ├── Inheritance/             # Parent-child class relationships
 ├── Interface/               # Contract-based design with interfaces
 ├── MethodOverriding/        # Overriding parent methods
