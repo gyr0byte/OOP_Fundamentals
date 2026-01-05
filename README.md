@@ -10,21 +10,23 @@
 
 ## 📑 Table of Contents
 
-- [Highlights](#highlights)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Quickstart](#quickstart)
-- [Contributing](#contributing)
-- [License](#license)
+- [✨ Highlights](#-highlights)
+- [📂 Folder Map](#-folder-map)
+- [📋 Prerequisites](#-prerequisites)
+- [🚀 Quickstart](#-quickstart)
+- [✅ Learning Checklist](#-learning-checklist)
+- [📁 Project Structure](#-project-structure)
+- [🤝 Contributing](#-contributing)
+- [💡 Next Steps](#-next-steps)
+- [📄 License](#-license)
 
 ## ✨ Highlights
 
-- 📋 Copy/paste quickstart commands for every package
-- 🎮 Game trio (Quiz, RPS, Slot) to apply concepts immediately
-
-- **14 Core OOP Concepts**: From basic classes to advanced polymorphism
+- **17+ Core OOP Concepts**: From basic classes to advanced polymorphism
 - **Ready-to-Run**: Each folder is self-contained with compilation instructions
 - **Beginner-Friendly**: Clear examples with minimal boilerplate
+- 📋 Copy/paste quickstart commands for every package
+- 🎮 Game trio (Quiz, RPS, Slot) to apply concepts immediately
 
 ## 📂 Folder Map
 
@@ -223,16 +225,20 @@ java SlotMachine
 ## ✅ Learning Checklist
 
 - ✅ Classes, objects, and instance vs. static members
+- ✅ Arrays of objects and iteration
 - ✅ Constructors and overloading patterns
+- ✅ Composition (has-a relationship)
 - ✅ Inheritance and method reuse/overriding
 - ✅ Interfaces and contract-based design
 - ✅ Method overriding and runtime polymorphism
 - ✅ Polymorphism and dynamic method dispatch
+- ✅ Runtime polymorphism and dynamic dispatch
 - ✅ Abstract classes and methods
 - ✅ Aggregation and object composition
 - ✅ Encapsulation with getters/setters
+- ✅ Static keyword and class-level members
+- ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
-- ✅ Arrays of objects and iteration
 - ✅ User-input-driven console games
 
 ## 📁 Project Structure
