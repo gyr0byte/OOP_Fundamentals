@@ -1,0 +1,20 @@
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class UserInput {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> foods = new ArrayList<>();
+        System.out.print("Enter the number of food you would like: ");
+        int numOfFood = sc.nextInt();
+        sc.nextLine();
+        for (int i = 1; i <= numOfFood; i++) {
+            System.out.println("Enter the food #" + i + ": ");
+            String food = sc.nextLine();
+            foods.add(food);
+        }
+        System.out.println(foods);
+    }
+}
