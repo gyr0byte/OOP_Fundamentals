@@ -36,6 +36,7 @@
 | ------------------------ | --------------------------------------- | ------------------------------------------------------- |
 | ObjectAndClass/          | Basic class and object creation         | `Demo` (no package)                                     |
 | arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                                      |
+| ArrayList/               | Using `ArrayList` and `Collections`     | `ArrayList.Main`                                        |
 | constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                          |
 | Composition/             | Has-a relationship (car with engine)    | `Composition.Main`                                      |
 | Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                                      |
@@ -46,6 +47,7 @@
 | Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                                      |
 | Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                      |
 | Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                    |
+| ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`          |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                     |
 | toString/                | Object string representation            | `toString.Main`                                         |
@@ -76,6 +78,16 @@ java Demo
 ```bash
 javac arrayObject/*.java
 java arrayObject.Main
+```
+
+</details>
+
+<details>
+<summary><b>ArrayList</b></summary>
+
+```bash
+javac ArrayList/*.java
+java ArrayList.Main
 ```
 
 </details>
@@ -182,6 +194,16 @@ java Encapsulation.Main
 </details>
 
 <details>
+<summary><b>ExceptionHandling</b></summary>
+
+```bash
+javac ExceptionHandling/*.java
+java ExceptionHandling.Main
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -230,6 +252,7 @@ java SlotMachine
 - ✅ Arrays of objects and iteration
 - ✅ Constructors and overloading patterns
 - ✅ Composition (has-a relationship)
+- ✅ `ArrayList` operations and `Collections.sort()`
 - ✅ Inheritance and method reuse/overriding
 - ✅ Interfaces and contract-based design
 - ✅ Method overriding and runtime polymorphism
@@ -238,6 +261,7 @@ java SlotMachine
 - ✅ Abstract classes and methods
 - ✅ Aggregation and object composition
 - ✅ Encapsulation with getters/setters
+- ✅ Exception handling with try/catch/finally
 - ✅ Static keyword and class-level members
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
@@ -249,6 +273,7 @@ java SlotMachine
 OOP/
 ├── ObjectAndClass/          # Basic class and object creation
 ├── arrayObject/             # Working with arrays of custom objects
+├── ArrayList/                # Java ArrayList basics + Collections
 ├── constructorsOverloading/ # Multiple constructor patterns
 ├── Composition/             # Has-a relationship (car with engine)
 ├── Inheritance/             # Parent-child class relationships
@@ -259,6 +284,7 @@ OOP/
 ├── Abstraction/             # Abstract classes and methods
 ├── Aggregation/             # Object composition and ownership
 ├── Encapsulation/           # Access control with getters/setters
+├── ExceptionHandling/        # Try/catch/finally and exception types
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
