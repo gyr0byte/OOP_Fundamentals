@@ -16,5 +16,6 @@ public class UserInput {
             foods.add(food);
         }
         System.out.println(foods);
+        sc.close();
     }
 }
