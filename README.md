@@ -48,6 +48,7 @@
 | Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                      |
 | Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                    |
 | ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                |
+| FileHandling/            | File I/O with readers and writers       | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`  |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`          |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                     |
 | toString/                | Object string representation            | `toString.Main`                                         |
@@ -207,6 +208,19 @@ java ExceptionHandling.Main
 </details>
 
 <details>
+<summary><b>FileHandling</b></summary>
+
+Demonstrates file I/O operations with `FileWriter` and `FileReader`.
+
+```bash
+javac FileHandling/*.java
+java FileHandling.FileWriterr
+java FileHandling.FileReaderr
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -265,6 +279,7 @@ java SlotMachine
 - ✅ Aggregation and object composition
 - ✅ Encapsulation with getters/setters
 - ✅ Exception handling with try/catch/finally
+- ✅ File handling with readers and writers
 - ✅ Static keyword and class-level members
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
@@ -288,6 +303,7 @@ OOP/
 ├── Aggregation/             # Object composition and ownership
 ├── Encapsulation/           # Access control with getters/setters
 ├── ExceptionHandling/        # Try/catch/finally and exception types
+├── FileHandling/            # File I/O with readers and writers
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
