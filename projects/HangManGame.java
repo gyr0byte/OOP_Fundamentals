@@ -1,10 +1,28 @@
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class HangManGame {
 
     public static void main(String[] args) {
+        String filePath = "projects\\words.txt";
+        ArrayList<String> words = new ArrayList<>();
+        try(BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                words.add(line.trim());
+            }
+        } 
+        catch (FileNotFoundException e) {
+            System.out.println("Cannot find the file!");
+        }
+        catch(IOException e){
+            System.out.println("Something went wrong!");
+        }
+        /* 
         String word = "apple";
         Scanner sc = new Scanner(System.in);
         ArrayList<Character> wordState = new ArrayList<>();
@@ -49,8 +67,8 @@ public class HangManGame {
             System.out.println(getHangmanArt(wrongGuesses));
             System.out.println("GAME OVER!!");
             System.out.println("The word was: " + word);
-        }
-        sc.close();
+        } 
+        sc.close(); */
     }
 
     static String getHangmanArt(int wrongGuesses) {
