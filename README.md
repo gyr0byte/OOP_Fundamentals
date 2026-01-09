@@ -28,31 +28,31 @@
 - **Ready-to-Run**: Each folder is self-contained with compilation instructions
 - **Beginner-Friendly**: Clear examples with minimal boilerplate
 - 📋 Copy/paste quickstart commands for every package
-- 🎮 Game quartet (Quiz, RPS, Slot, Audio Player) to apply concepts immediately
+- 🎮 Game trio (Quiz, RPS, Slot) to apply concepts immediately
 
 ## 📂 Folder Map
 
-| Folder                   | Focus                                                 | Run Entry                                                     |
-| ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------- |
-| ObjectAndClass/          | Basic class and object creation                       | `Demo` (no package)                                           |
-| arrayObject/             | Arrays of custom objects                              | `arrayObject.Main`                                            |
-| ArrayList/               | Using `ArrayList` and `Collections`                   | `ArrayList.Main`                                              |
-| constructorsOverloading/ | Multiple constructor signatures                       | `constructorsOverloading.Main`                                |
-| Composition/             | Has-a relationship (car with engine)                  | `Composition.Main`                                            |
-| Inheritance/             | Parent-child reuse and overriding                     | `Inheritance.Main`                                            |
-| Interface/               | Contracts via interfaces                              | `Interface.Main`                                              |
-| MethodOverriding/        | Runtime polymorphism via override                     | `MethodOverriding.Main`                                       |
-| RuntimePolymorphism/     | Dynamic dispatch examples                             | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2`       |
-| Polymorphism/            | Single interface, multiple forms                      | `Polymorphism.Main`                                           |
-| Abstraction/             | Abstract classes and methods                          | `Abstraction.Main`                                            |
-| Aggregation/             | Object composition and ownership                      | `Aggregation.Main`                                            |
-| Encapsulation/           | Access control with getters/setters                   | `Encapsulation.Main`                                          |
-| ExceptionHandling/       | Try/catch/finally and common exceptions               | `ExceptionHandling.Main`                                      |
-| FileHandling/            | File I/O with readers and writers                     | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`        |
-| staticKeyword/           | Class-level members                                   | `staticKeyword.Main`, `staticKeyword.MainMath`                |
-| SuperKeyword/            | `super` for constructors and methods                  | `SuperKeyword.Main`                                           |
-| toString/                | Object string representation                          | `toString.Main`                                               |
-| projects/                | Quiz, Rock-Paper-Scissors, Slot Machine, Audio Player | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer` |
+| Folder                   | Focus                                   | Run Entry                                                                    |
+| ------------------------ | --------------------------------------- | ---------------------------------------------------------------------------- |
+| ObjectAndClass/          | Basic class and object creation         | `Demo` (no package)                                                          |
+| arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                                                           |
+| ArrayList/               | Using `ArrayList` and `Collections`     | `ArrayList.Main`                                                             |
+| constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                                               |
+| Composition/             | Has-a relationship (car with engine)    | `Composition.Main`                                                           |
+| Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                                                           |
+| Interface/               | Contracts via interfaces                | `Interface.Main`                                                             |
+| MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                                                      |
+| RuntimePolymorphism/     | Dynamic dispatch examples               | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2`                      |
+| Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                                                          |
+| Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                                                           |
+| Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                                           |
+| Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                                         |
+| ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                                     |
+| FileHandling/            | File I/O with readers and writers       | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`                       |
+| staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`                               |
+| SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                                          |
+| toString/                | Object string representation            | `toString.Main`                                                              |
+| projects/                | Quiz, RPS, Slot, Audio, Hangman         | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame` |
 
 ## 📋 Prerequisites
 
@@ -260,7 +260,10 @@ java QuizGame
 java RockPaperScissors
 java SlotMachine
 java AudioPlayer
+java HangManGame
 ```
+
+HangManGame loads its word list from `projects/words.txt`—keep that file alongside the compiled class.
 
 </details>
 
@@ -305,6 +308,9 @@ OOP/
 ├── Encapsulation/           # Access control with getters/setters
 ├── ExceptionHandling/        # Try/catch/finally and exception types
 ├── FileHandling/            # File I/O with readers and writers
+│   ├── FileReaderr.java
+│   ├── FileWriterr.java
+│   └── output.txt          # Sample output file written by FileWriterr
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
@@ -312,7 +318,9 @@ OOP/
     ├── QuizGame.java
     ├── RockPaperScissors.java
     ├── SlotMachine.java
-    └── AudioPlayer.java
+    ├── AudioPlayer.java
+    ├── HangManGame.java
+    └── words.txt           # Word list consumed by HangManGame
 ```
 
 ## 🤝 Contributing
