@@ -50,6 +50,7 @@
 | ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                                     |
 | FileHandling/            | File I/O with readers and writers       | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`                       |
 | DatesandTime/            | Java Date/Time API and manipulation     | `DatesandTime.dates`, `DatesandTime.MoreDates`                               |
+| AnonymousClasses/        | Anonymous inner classes and interfaces  | `AnonymousClasses.Main`                                                      |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`                               |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                                          |
 | toString/                | Object string representation            | `toString.Main`                                                              |
@@ -235,6 +236,18 @@ java DatesandTime.MoreDates
 </details>
 
 <details>
+<summary><b>AnonymousClasses</b></summary>
+
+Demonstrates anonymous inner classes and implementing interfaces without explicit class definitions.
+
+```bash
+javac AnonymousClasses/*.java
+java AnonymousClasses.Main
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -299,6 +312,7 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Exception handling with try/catch/finally
 - ✅ File handling with readers and writers
 - ✅ Date and Time manipulation with Java APIs
+- ✅ Anonymous inner classes and interface implementation
 - ✅ Static keyword and class-level members
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
@@ -329,6 +343,9 @@ OOP/
 ├── DatesandTime/            # Java Date and Time API examples
 │   ├── dates.java
 │   └── MoreDates.java
+├── AnonymousClasses/        # Anonymous inner classes and interfaces
+│   ├── Dog.java
+│   └── Main.java
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
