@@ -49,6 +49,7 @@
 | Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                                         |
 | ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                                     |
 | FileHandling/            | File I/O with readers and writers       | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`                       |
+| DatesandTime/            | Java Date/Time API and manipulation     | `DatesandTime.dates`, `DatesandTime.MoreDates`                               |
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`                               |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                                          |
 | toString/                | Object string representation            | `toString.Main`                                                              |
@@ -221,6 +222,19 @@ java FileHandling.FileReaderr
 </details>
 
 <details>
+<summary><b>DatesandTime</b></summary>
+
+Explores Java's Date and Time APIs with practical examples.
+
+```bash
+javac DatesandTime/*.java
+java DatesandTime.dates
+java DatesandTime.MoreDates
+```
+
+</details>
+
+<details>
 <summary><b>staticKeyword</b></summary>
 
 ```bash
@@ -284,6 +298,7 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Encapsulation with getters/setters
 - ✅ Exception handling with try/catch/finally
 - ✅ File handling with readers and writers
+- ✅ Date and Time manipulation with Java APIs
 - ✅ Static keyword and class-level members
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
@@ -311,6 +326,9 @@ OOP/
 │   ├── FileReaderr.java
 │   ├── FileWriterr.java
 │   └── output.txt          # Sample output file written by FileWriterr
+├── DatesandTime/            # Java Date and Time API examples
+│   ├── dates.java
+│   └── MoreDates.java
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
