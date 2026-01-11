@@ -12,8 +12,10 @@ public class CountdownTimer {
                 count--;
                 if (count < 0) {
                     System.out.println("Happy Birthday");
+                    timer.cancel();
                 }
             }
         };
+        timer.scheduleAtFixedRate(task, 0, 1000);
     }
 }
