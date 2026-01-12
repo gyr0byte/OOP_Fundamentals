@@ -251,16 +251,21 @@ java AnonymousClasses.Main
 <details>
 <summary><b>staticKeyword</b></summary>
 
+Demonstrates static members, methods, and how they differ from instance members.
+
 ```bash
 javac staticKeyword/*.java
 java staticKeyword.Main
 java staticKeyword.MainMath
+java staticKeyword.Friend
 ```
 
 </details>
 
 <details>
 <summary><b>SuperKeyword</b></summary>
+
+Explores the `super` keyword for calling parent constructors and methods.
 
 ```bash
 javac SuperKeyword/*.java
@@ -301,6 +306,7 @@ java RockPaperScissors
 java SlotMachine
 java AudioPlayer
 java HangManGame
+java CountdownTimer
 ```
 
 HangManGame loads its word list from `projects/words.txt`—keep that file alongside the compiled class.
@@ -361,7 +367,14 @@ OOP/
 │   ├── Dog.java
 │   └── Main.java
 ├── staticKeyword/           # Class-level vs instance members
+│   ├── Main.java
+│   ├── MainMath.java
+│   └── Friend.java
 ├── SuperKeyword/            # Using super in constructors/methods
+│   ├── Main.java
+│   ├── Employee.java
+│   ├── Person.java
+│   └── Student.java
 ├── toString/                # Custom string representations
 ├── TimerTask/               # Task scheduling with Timer and TimerTask
 │   └── TimerTasks.java
@@ -371,6 +384,7 @@ OOP/
     ├── SlotMachine.java
     ├── AudioPlayer.java
     ├── HangManGame.java
+    ├── CountdownTimer.java
     └── words.txt           # Word list consumed by HangManGame
 ```
 
