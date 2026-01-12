@@ -54,6 +54,7 @@
 | staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`                               |
 | SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                                          |
 | toString/                | Object string representation            | `toString.Main`                                                              |
+| TimerTask/               | Scheduling tasks with `Timer`           | `TimerTask.TimerTasks`                                                       |
 | projects/                | Quiz, RPS, Slot, Audio, Hangman         | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame` |
 
 ## 📋 Prerequisites
@@ -279,6 +280,18 @@ java toString.Main
 </details>
 
 <details>
+<summary><b>TimerTask</b></summary>
+
+Demonstrates task scheduling and execution using Java's `Timer` and `TimerTask` classes for delayed and periodic actions.
+
+```bash
+javac TimerTask/*.java
+java TimerTask.TimerTasks
+```
+
+</details>
+
+<details>
 <summary><b>Games (projects)</b></summary>
 
 ```bash
@@ -316,6 +329,7 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Static keyword and class-level members
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
+- ✅ Timer and TimerTask for task scheduling
 - ✅ User-input-driven console games
 
 ## 📁 Project Structure
@@ -349,6 +363,8 @@ OOP/
 ├── staticKeyword/           # Class-level vs instance members
 ├── SuperKeyword/            # Using super in constructors/methods
 ├── toString/                # Custom string representations
+├── TimerTask/               # Task scheduling with Timer and TimerTask
+│   └── TimerTasks.java
 └── projects/                # Console games for practice
     ├── QuizGame.java
     ├── RockPaperScissors.java
