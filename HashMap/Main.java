@@ -23,7 +23,7 @@ public class Main {
             System.out.println("Key not found!");
         }
         for (String key : map.keySet()) {
-            System.out.println("Key: " + key + ", Value: " + map.get(key));
+            System.out.println(key + ", Value: $" + map.get(key));
         }
     }
 }

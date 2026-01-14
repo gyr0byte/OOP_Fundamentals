@@ -32,30 +32,32 @@
 
 ## 📂 Folder Map
 
-| Folder                   | Focus                                   | Run Entry                                                                    |
-| ------------------------ | --------------------------------------- | ---------------------------------------------------------------------------- |
-| ObjectAndClass/          | Basic class and object creation         | `Demo` (no package)                                                          |
-| arrayObject/             | Arrays of custom objects                | `arrayObject.Main`                                                           |
-| ArrayList/               | Using `ArrayList` and `Collections`     | `ArrayList.Main`                                                             |
-| constructorsOverloading/ | Multiple constructor signatures         | `constructorsOverloading.Main`                                               |
-| Composition/             | Has-a relationship (car with engine)    | `Composition.Main`                                                           |
-| Inheritance/             | Parent-child reuse and overriding       | `Inheritance.Main`                                                           |
-| Interface/               | Contracts via interfaces                | `Interface.Main`                                                             |
-| MethodOverriding/        | Runtime polymorphism via override       | `MethodOverriding.Main`                                                      |
-| RuntimePolymorphism/     | Dynamic dispatch examples               | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2`                      |
-| Polymorphism/            | Single interface, multiple forms        | `Polymorphism.Main`                                                          |
-| Abstraction/             | Abstract classes and methods            | `Abstraction.Main`                                                           |
-| Aggregation/             | Object composition and ownership        | `Aggregation.Main`                                                           |
-| Encapsulation/           | Access control with getters/setters     | `Encapsulation.Main`                                                         |
-| ExceptionHandling/       | Try/catch/finally and common exceptions | `ExceptionHandling.Main`                                                     |
-| FileHandling/            | File I/O with readers and writers       | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`                       |
-| DatesandTime/            | Java Date/Time API and manipulation     | `DatesandTime.dates`, `DatesandTime.MoreDates`                               |
-| AnonymousClasses/        | Anonymous inner classes and interfaces  | `AnonymousClasses.Main`                                                      |
-| staticKeyword/           | Class-level members                     | `staticKeyword.Main`, `staticKeyword.MainMath`                               |
-| SuperKeyword/            | `super` for constructors and methods    | `SuperKeyword.Main`                                                          |
-| toString/                | Object string representation            | `toString.Main`                                                              |
-| TimerTask/               | Scheduling tasks with `Timer`           | `TimerTask.TimerTasks`                                                       |
-| projects/                | Quiz, RPS, Slot, Audio, Hangman         | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame` |
+| Folder                   | Focus                                      | Run Entry                                                                                      |
+| ------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| ObjectAndClass/          | Basic class and object creation            | `Demo` (no package)                                                                            |
+| arrayObject/             | Arrays of custom objects                   | `arrayObject.Main`                                                                             |
+| ArrayList/               | Using `ArrayList` and `Collections`        | `ArrayList.Main`                                                                               |
+| constructorsOverloading/ | Multiple constructor signatures            | `constructorsOverloading.Main`                                                                 |
+| Composition/             | Has-a relationship (car with engine)       | `Composition.Main`                                                                             |
+| Inheritance/             | Parent-child reuse and overriding          | `Inheritance.Main`                                                                             |
+| Interface/               | Contracts via interfaces                   | `Interface.Main`                                                                               |
+| MethodOverriding/        | Runtime polymorphism via override          | `MethodOverriding.Main`                                                                        |
+| RuntimePolymorphism/     | Dynamic dispatch examples                  | `RuntimePolymorphism.Main`, `RuntimePolymorphism.Main2`                                        |
+| Polymorphism/            | Single interface, multiple forms           | `Polymorphism.Main`                                                                            |
+| Abstraction/             | Abstract classes and methods               | `Abstraction.Main`                                                                             |
+| Aggregation/             | Object composition and ownership           | `Aggregation.Main`                                                                             |
+| Encapsulation/           | Access control with getters/setters        | `Encapsulation.Main`                                                                           |
+| ExceptionHandling/       | Try/catch/finally and common exceptions    | `ExceptionHandling.Main`                                                                       |
+| FileHandling/            | File I/O with readers and writers          | `FileHandling.FileReaderr`, `FileHandling.FileWriterr`                                         |
+| DatesandTime/            | Java Date/Time API and manipulation        | `DatesandTime.dates`, `DatesandTime.MoreDates`                                                 |
+| AnonymousClasses/        | Anonymous inner classes and interfaces     | `AnonymousClasses.Main`                                                                        |
+| staticKeyword/           | Class-level members                        | `staticKeyword.Main`, `staticKeyword.MainMath`                                                 |
+| SuperKeyword/            | `super` for constructors and methods       | `SuperKeyword.Main`                                                                            |
+| toString/                | Object string representation               | `toString.Main`                                                                                |
+| TimerTask/               | Scheduling tasks with `Timer`              | `TimerTask.TimerTasks`                                                                         |
+| Generics/                | Generics and type safety                   | `Generics.Main`                                                                                |
+| HashMap/                 | Using `HashMap` for key-value storage      | `HashMap.Main`                                                                                 |
+| projects/                | Quiz, RPS, Slot, Audio, Hangman, Countdown | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame`, `CountdownTimer` |
 
 ## 📋 Prerequisites
 
@@ -297,6 +299,30 @@ java TimerTask.TimerTasks
 </details>
 
 <details>
+<summary><b>Generics</b></summary>
+
+Demonstrates generics for type-safe collections and classes.
+
+```bash
+javac Generics/*.java
+java Generics.Main
+```
+
+</details>
+
+<details>
+<summary><b>HashMap</b></summary>
+
+Demonstrates using HashMap for key-value data storage and retrieval.
+
+```bash
+javac HashMap/*.java
+java HashMap.Main
+```
+
+</details>
+
+<details>
 <summary><b>Games (projects)</b></summary>
 
 ```bash
@@ -336,6 +362,8 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Super keyword for constructors and methods
 - ✅ toString() method customization
 - ✅ Timer and TimerTask for task scheduling
+- ✅ Generics for type-safe collections
+- ✅ HashMap for key-value data structures
 - ✅ User-input-driven console games
 
 ## 📁 Project Structure
@@ -378,6 +406,12 @@ OOP/
 ├── toString/                # Custom string representations
 ├── TimerTask/               # Task scheduling with Timer and TimerTask
 │   └── TimerTasks.java
+├── Generics/                # Generics for type-safe collections
+│   ├── Box.java
+│   ├── Main.java
+│   └── Product.java
+├── HashMap/                 # Key-value data structures with HashMap
+│   └── Main.java
 └── projects/                # Console games for practice
     ├── QuizGame.java
     ├── RockPaperScissors.java
