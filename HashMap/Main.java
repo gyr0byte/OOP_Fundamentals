@@ -12,14 +12,18 @@ public class Main {
         // map.remove("apple");
 
         // System.out.println(map.get("apple"));
-        System.out.println(map);
+        // System.out.println(map);
         // System.out.println(map.containsKey("banana"));
-        System.out.println(map.containsValue(1.00));
+        // System.out.println(map.containsValue(1.00));
+        System.out.println(map.size());
         if (map.containsKey("apple")) {
             System.out.println(map.get("apple"));
         } 
         else {
             System.out.println("Key not found!");
+        }
+        for (String key : map.keySet()) {
+            System.out.println("Key: " + key + ", Value: " + map.get(key));
         }
     }
 }
