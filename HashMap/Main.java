@@ -14,7 +14,7 @@ public class Main {
         // System.out.println(map.get("apple"));
         System.out.println(map);
         // System.out.println(map.containsKey("banana"));
-
+        System.out.println(map.containsValue(1.00));
         if (map.containsKey("apple")) {
             System.out.println(map.get("apple"));
         }
