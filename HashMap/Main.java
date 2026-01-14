@@ -9,7 +9,17 @@ public class Main {
         map.put("orange", 0.75);
         map.put("banana", 0.25);
         map.put("coconut", 1.00);
-        map.remove("apple");
+        // map.remove("apple");
+
+        // System.out.println(map.get("apple"));
         System.out.println(map);
+        // System.out.println(map.containsKey("banana"));
+
+        if (map.containsKey("apple")) {
+            System.out.println(map.get("apple"));
+        }
+        else{
+            System.out.println("Key not found!");
+        }
     }
 }
