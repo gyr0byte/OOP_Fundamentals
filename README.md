@@ -370,56 +370,122 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 
 ```
 OOP/
-├── ObjectAndClass/          # Basic class and object creation
-├── arrayObject/             # Working with arrays of custom objects
-├── ArrayList/                # Java ArrayList basics + Collections
-├── constructorsOverloading/ # Multiple constructor patterns
-├── Composition/             # Has-a relationship (car with engine)
-├── Inheritance/             # Parent-child class relationships
-├── Interface/               # Contract-based design with interfaces
-├── MethodOverriding/        # Overriding parent methods
-├── Polymorphism/            # Single interface, multiple forms
-├── RuntimePolymorphism/     # Dynamic method dispatch
 ├── Abstraction/             # Abstract classes and methods
-├── Aggregation/             # Object composition and ownership
-├── Encapsulation/           # Access control with getters/setters
-├── ExceptionHandling/        # Try/catch/finally and exception types
-├── FileHandling/            # File I/O with readers and writers
-│   ├── FileReaderr.java
-│   ├── FileWriterr.java
-│   └── output.txt          # Sample output file written by FileWriterr
-├── DatesandTime/            # Java Date and Time API examples
-│   ├── dates.java
-│   └── MoreDates.java
-├── AnonymousClasses/        # Anonymous inner classes and interfaces
+│   ├── Circle.java
+│   ├── Main.java
+│   ├── Rectangle.java
+│   ├── Shape.java
+│   └── Triangle.java
+├── Aggregation/            # Object composition and ownership
+│   ├── Book.java
+│   ├── Library.java
+│   └── Main.java
+├── AnonymousClasses/       # Anonymous inner classes and interfaces
 │   ├── Dog.java
 │   └── Main.java
-├── staticKeyword/           # Class-level vs instance members
+├── ArrayList/              # Java ArrayList basics + Collections
 │   ├── Main.java
-│   ├── MainMath.java
-│   └── Friend.java
-├── SuperKeyword/            # Using super in constructors/methods
+│   └── UserInput.java
+├── arrayObject/            # Working with arrays of custom objects
+│   ├── Car.class
+│   ├── Car.java
+│   └── Main.java
+├── Composition/            # Has-a relationship (car with engine)
+│   ├── Car.java
+│   ├── Engine.java
+│   └── Main.java
+├── constructorsOverloading/# Multiple constructor patterns
+│   ├── Main.class
 │   ├── Main.java
-│   ├── Employee.java
-│   ├── Person.java
-│   └── Student.java
-├── toString/                # Custom string representations
-├── TimerTask/               # Task scheduling with Timer and TimerTask
-│   └── TimerTasks.java
-├── Generics/                # Generics for type-safe collections
+│   ├── User.class
+│   └── User.java
+├── DatesandTime/           # Java Date and Time API examples
+│   ├── dates.java
+│   └── MoreDates.java
+├── Encapsulation/          # Access control with getters/setters
+│   ├── Car.java
+│   └── Main.java
+├── ExceptionHandling/      # Try/catch/finally and exception types
+│   └── Main.java
+├── FileHandling/           # File I/O with readers and writers
+│   ├── FileReaderr.java
+│   ├── FileWriterr.java
+│   └── output.txt
+├── Generics/               # Generics for type-safe collections
 │   ├── Box.java
 │   ├── Main.java
 │   └── Product.java
-├── HashMap/                 # Key-value data structures with HashMap
+├── HashMap/                # Key-value data structures with HashMap
 │   └── Main.java
-└── projects/                # Console games for practice
-    ├── QuizGame.java
-    ├── RockPaperScissors.java
-    ├── SlotMachine.java
-    ├── AudioPlayer.java
-    ├── HangManGame.java
-    ├── CountdownTimer.java
-    └── words.txt           # Word list consumed by HangManGame
+├── Inheritance/            # Parent-child class relationships
+│   ├── Animal.java
+│   ├── Cat.java
+│   ├── Dog.java
+│   ├── Main.java
+│   ├── Organism.java
+│   └── Plant.java
+├── Interface/              # Contract-based design with interfaces
+│   ├── Fish.java
+│   ├── Hawk.java
+│   ├── Main.java
+│   ├── Predator.java
+│   ├── Prey.java
+│   └── Rabbit.java
+├── MethodOverriding/       # Overriding parent methods
+│   ├── Animal.java
+│   ├── Cat.java
+│   ├── Dog.java
+│   ├── Fish.java
+│   └── Main.java
+├── ObjectAndClass/         # Basic class and object creation
+│   ├── Demo.class
+│   ├── Demo.java
+│   ├── Student.class
+│   └── Student.java
+├── Polymorphism/           # Single interface, multiple forms
+│   ├── Bike.java
+│   ├── Boat.java
+│   ├── Car.java
+│   ├── Main.java
+│   └── Vehicle.java
+├── projects/               # Console games and utilities
+│   ├── AudioPlayer.java
+│   ├── CountdownTimer.java
+│   ├── HangManGame.java
+│   ├── Music.wav
+│   ├── QuizGame.class
+│   ├── QuizGame.java
+│   ├── RockPaperScissors.class
+│   ├── RockPaperScissors.java
+│   ├── SlotMachine.class
+│   ├── SlotMachine.java
+│   └── words.txt
+├── RuntimePolymorphism/    # Dynamic method dispatch
+│   ├── Animal.java
+│   ├── Cat.java
+│   ├── Dog.java
+│   ├── Emp.java
+│   ├── Main.java
+│   ├── Main2.java
+│   ├── Person.java
+│   └── Ram.java
+├── staticKeyword/          # Class-level vs instance members
+│   ├── Friend.class
+│   ├── Friend.java
+│   ├── Main.class
+│   ├── Main.java
+│   ├── MainMath.class
+│   └── MainMath.java
+├── SuperKeyword/           # Using super in constructors/methods
+│   ├── Employee.java
+│   ├── Main.java
+│   ├── Person.java
+│   └── Student.java
+├── TimerTask/              # Task scheduling with Timer and TimerTask
+│   └── TimerTasks.java
+└── toString/               # Custom string representations
+    ├── Car.java
+    └── Main.java
 ```
 
 ## 🤝 Contributing
