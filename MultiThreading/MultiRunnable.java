@@ -1,6 +1,11 @@
 package MultiThreading;
 
 public class MultiRunnable implements Runnable {
+    private final String text;
+    
+    MultiRunnable(String text) {
+        this.text = text;
+    }
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
