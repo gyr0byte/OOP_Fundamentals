@@ -57,6 +57,8 @@
 | TimerTask/               | Scheduling tasks with `Timer`              | `TimerTask.TimerTasks`                                                                         |
 | Generics/                | Generics and type safety                   | `Generics.Main`                                                                                |
 | HashMap/                 | Using `HashMap` for key-value storage      | `HashMap.Main`                                                                                 |
+| enums/                   | Defining and using enumerated types        | `enums.Main`                                                                                   |
+| Threading/               | Creating and running background threads    | `Threading.Main`                                                                               |
 | projects/                | Quiz, RPS, Slot, Audio, Hangman, Countdown | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame`, `CountdownTimer` |
 
 ## 📋 Prerequisites
@@ -323,6 +325,30 @@ java HashMap.Main
 </details>
 
 <details>
+<summary><b>enums</b></summary>
+
+Demonstrates defining and using enums for type-safe constants.
+
+```bash
+javac enums/*.java
+java enums.Main
+```
+
+</details>
+
+<details>
+<summary><b>Threading</b></summary>
+
+Demonstrates creating and running a thread by implementing the `Runnable` interface.
+
+```bash
+javac Threading/*.java
+java Threading.Main
+```
+
+</details>
+
+<details>
 <summary><b>Games (projects)</b></summary>
 
 ```bash
@@ -364,6 +390,8 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Timer and TimerTask for task scheduling
 - ✅ Generics for type-safe collections
 - ✅ HashMap for key-value data structures
+- ✅ Enumerated types for constants
+- ✅ Creating and running threads
 - ✅ User-input-driven console games
 
 ## 📁 Project Structure
@@ -387,7 +415,6 @@ OOP/
 │   ├── Main.java
 │   └── UserInput.java
 ├── arrayObject/            # Working with arrays of custom objects
-│   ├── Car.class
 │   ├── Car.java
 │   └── Main.java
 ├── Composition/            # Has-a relationship (car with engine)
@@ -395,15 +422,16 @@ OOP/
 │   ├── Engine.java
 │   └── Main.java
 ├── constructorsOverloading/# Multiple constructor patterns
-│   ├── Main.class
 │   ├── Main.java
-│   ├── User.class
 │   └── User.java
 ├── DatesandTime/           # Java Date and Time API examples
 │   ├── dates.java
 │   └── MoreDates.java
 ├── Encapsulation/          # Access control with getters/setters
 │   ├── Car.java
+│   └── Main.java
+├── enums/                  # Defining and using enums
+│   ├── Day.java
 │   └── Main.java
 ├── ExceptionHandling/      # Try/catch/finally and exception types
 │   └── Main.java
@@ -437,10 +465,9 @@ OOP/
 │   ├── Dog.java
 │   ├── Fish.java
 │   └── Main.java
+├── MultiThreading/         # (Empty) Placeholder for multi-threading examples
 ├── ObjectAndClass/         # Basic class and object creation
-│   ├── Demo.class
 │   ├── Demo.java
-│   ├── Student.class
 │   └── Student.java
 ├── Polymorphism/           # Single interface, multiple forms
 │   ├── Bike.java
@@ -453,11 +480,8 @@ OOP/
 │   ├── CountdownTimer.java
 │   ├── HangManGame.java
 │   ├── Music.wav
-│   ├── QuizGame.class
 │   ├── QuizGame.java
-│   ├── RockPaperScissors.class
 │   ├── RockPaperScissors.java
-│   ├── SlotMachine.class
 │   ├── SlotMachine.java
 │   └── words.txt
 ├── RuntimePolymorphism/    # Dynamic method dispatch
@@ -470,17 +494,17 @@ OOP/
 │   ├── Person.java
 │   └── Ram.java
 ├── staticKeyword/          # Class-level vs instance members
-│   ├── Friend.class
 │   ├── Friend.java
-│   ├── Main.class
 │   ├── Main.java
-│   ├── MainMath.class
 │   └── MainMath.java
 ├── SuperKeyword/           # Using super in constructors/methods
 │   ├── Employee.java
 │   ├── Main.java
 │   ├── Person.java
 │   └── Student.java
+├── Threading/              # Implementing Runnable and Thread
+│   ├── Main.java
+│   └── MyRunnable.java
 ├── TimerTask/              # Task scheduling with Timer and TimerTask
 │   └── TimerTasks.java
 └── toString/               # Custom string representations
