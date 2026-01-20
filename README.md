@@ -506,10 +506,10 @@ Contributions are welcome! If you'd like to add more examples or improve existin
 
 ## 💡 Next Steps
 
-- Add input validation and error handling (especially in the games)
-- Implement encapsulation examples with getters/setters
-- Add lightweight tests for gameplay and utility methods
-- Create more interactive console projects
+- Add input validation and user-facing error handling (focus: `projects/` games — input parsing, file I/O, game loops)
+- Implement encapsulation examples with clear getters/setters and small usage samples
+- Add lightweight tests (recommendation: JUnit 5). Place tests under a `test/` or `src/test/java` layout and include simple unit tests for gameplay logic and utilities
+- Create more interactive console projects and document run/usage examples in each project's folder
 
 ## 📄 License
 
