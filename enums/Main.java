@@ -1,8 +1,18 @@
 package enums;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Day day =  Day.SUNDAY;
-        System.out.println(day);
+        // System.out.println(day);
+        // System.out.println(day.getDayNumber());
+
+        switch (day) {
+            case MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY -> System.out.println("It is a weekday");
+            case SATURDAY, SUNDAY -> System.out.println("It is a weekend");
+        }
+        sc.close();
     }
 }
