@@ -2,8 +2,9 @@ package MultiThreading;
 
 public class Main {
     public static void main(String[] args) {
-        MultiRunnable multiRunnable = new MultiRunnable();
-        Thread thread = new Thread(multiRunnable);
-        thread.start();
+        Thread thread1 = new Thread(new MultiRunnable());
+        Thread thread2 = new Thread(new MultiRunnable());
+        thread1.start();
+        thread2.start();
     }
 }
