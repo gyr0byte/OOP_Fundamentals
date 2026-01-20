@@ -10,6 +10,10 @@ public class MyRunnable implements Runnable{
             catch (InterruptedException e) {
                 System.out.println("Thread was interrupted");
             }
+            if (i == 5) {
+                System.out.println("Time's Up!");
+                System.exit(0);
+            }
         }
     }
 }

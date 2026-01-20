@@ -8,6 +8,7 @@ public class Main {
         MyRunnable myRunnable = new MyRunnable();
         Thread thread = new Thread(myRunnable);
 
+        thread.setDaemon(true);
         thread.start();
         System.out.println("You have 5 seconds to enter your name");
         System.out.print("Enter your name: ");
