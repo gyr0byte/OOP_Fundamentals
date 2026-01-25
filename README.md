@@ -57,6 +57,8 @@
 | TimerTask/               | Scheduling tasks with `Timer`              | `TimerTask.TimerTasks`                                                                         |
 | Generics/                | Generics and type safety                   | `Generics.Main`                                                                                |
 | HashMap/                 | Using `HashMap` for key-value storage      | `HashMap.Main`                                                                                 |
+| enums/                   | Defining and using enumerated types        | `enums.Main`                                                                                   |
+| Threading/               | Creating threads with `Runnable`           | `Threading.Main`                                                                               |
 | MultiThreading/          | Multithreading examples (Thread, Runnable) | `MultiThreading.Main`                                                                          |
 | projects/                | Quiz, RPS, Slot, Audio, Hangman, Countdown | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame`, `CountdownTimer` |
 
@@ -324,6 +326,30 @@ java HashMap.Main
 </details>
 
 <details>
+<summary><b>enums</b></summary>
+
+Demonstrates defining and using enums for type-safe constants.
+
+```bash
+javac enums/*.java
+java enums.Main
+```
+
+</details>
+
+<details>
+<summary><b>Threading</b></summary>
+
+Demonstrates creating threads by implementing `Runnable`.
+
+```bash
+javac Threading/*.java
+java Threading.Main
+```
+
+</details>
+
+<details>
 <summary><b>MultiThreading</b></summary>
 
 Demonstrates basic thread creation and `Runnable` usage.
@@ -377,6 +403,8 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Timer and TimerTask for task scheduling
 - ✅ Generics for type-safe collections
 - ✅ HashMap for key-value data structures
+- ✅ Enumerated types for type-safe constants
+- ✅ Creating threads with `Runnable` interface
 - ✅ Multithreading basics (Thread, Runnable)
 - ✅ User-input-driven console games
 
@@ -415,6 +443,9 @@ OOP/
 │   └── MoreDates.java
 ├── Encapsulation/          # Access control with getters/setters
 │   ├── Car.java
+│   └── Main.java
+├── enums/                  # Defining and using enumerated types
+│   ├── Day.java
 │   └── Main.java
 ├── ExceptionHandling/      # Try/catch/finally and exception types
 │   └── Main.java
@@ -487,6 +518,9 @@ OOP/
 │   ├── Main.java
 │   ├── Person.java
 │   └── Student.java
+├── Threading/              # Creating threads with Runnable
+│   ├── Main.java
+│   └── MyRunnable.java
 ├── TimerTask/              # Task scheduling with Timer and TimerTask
 │   └── TimerTasks.java
 └── toString/               # Custom string representations
