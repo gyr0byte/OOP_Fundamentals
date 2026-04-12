@@ -9,9 +9,11 @@ public class Main {
         user.password = "idkidk11";
 
         try {
-            FileOutputStream fileOut = new FileOutputStream("UserInfo.ser");
+            FileOutputStream fileOut = new FileOutputStream("./Serialization/UserInfo.ser");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
             out.writeObject(user);
+            out.close();
+            System.out.println("Object Info Saved!");
         } 
         catch (IOException e) {
             System.out.println("File not found!!");
