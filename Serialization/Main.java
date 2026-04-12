@@ -1,3 +1,5 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -5,6 +7,11 @@ public class Main {
         user.name = "Gaurav";
         user.password = "idkidk11";
 
-        user.sayHello();
+        try {
+            FileOutputStream fileOut = new FileOutputStream("UserInfo.ser");
+        } 
+        catch (FileNotFoundException e) {
+            System.out.println("File not found!!");
+        }
     }
 }
