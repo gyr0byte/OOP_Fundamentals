@@ -1,3 +1,4 @@
+
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,11 +16,9 @@ public class Main {
             out.writeObject(user);
             out.close();
             System.out.println("Object Info Saved!");
-        } 
-        catch(FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             System.out.println("File not found!");
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             System.out.println("File not found!!");
         }
     }

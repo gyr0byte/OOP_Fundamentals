@@ -9,14 +9,19 @@ public class Main {
     public static void main(String[] args) {
         User user = null;
         try {
-            FileInputStream fileIn = new FileInputStream("./Serialization/UserInfo.ser");
-            ObjectInputStream in = new ObjectInputStream(fileIn);
-        }
-        catch(FileNotFoundException e){
+            try (FileInputStream fileIn = new FileInputStream(
+                    "C:\\Users\\MSI\\Desktop\\College codes\\sem_1\\Programming_Java\\OOP\\Serialization\\UserInfo.ser"); ObjectInputStream in = new ObjectInputStream(fileIn)) {
+                user = (User) in.readObject();
+            }
+        } catch (FileNotFoundException e) {
             System.out.println("File not found!");
-        }
-        catch(IOException e){
+        } catch (IOException e) {
             System.out.println("File I/O exception");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Class not found!!");
         }
+        System.out.println(user.name);
+        System.out.println(user.password);
+        user.sayHello();
     }
 }
