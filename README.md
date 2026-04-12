@@ -60,6 +60,8 @@
 | enums/                   | Defining and using enumerated types        | `enums.Main`                                                                                   |
 | Threading/               | Creating threads with `Runnable`           | `Threading.Main`                                                                               |
 | MultiThreading/          | Multithreading examples (Thread, Runnable) | `MultiThreading.Main`                                                                          |
+| Serialization/           | Serializing objects to files               | `Serialization.Main`                                                                           |
+| Deserialization/         | Deserializing objects from files           | `Deserialization.Main`                                                                         |
 | projects/                | Quiz, RPS, Slot, Audio, Hangman, Countdown | `QuizGame`, `RockPaperScissors`, `SlotMachine`, `AudioPlayer`, `HangManGame`, `CountdownTimer` |
 
 ## 📋 Prerequisites
@@ -362,6 +364,30 @@ java MultiThreading.Main
 </details>
 
 <details>
+<summary><b>Serialization</b></summary>
+
+Demonstrates serializing objects to a file using `ObjectOutputStream`.
+
+```bash
+javac Serialization/*.java
+java Serialization.Main
+```
+
+</details>
+
+<details>
+<summary><b>Deserialization</b></summary>
+
+Demonstrates deserializing objects from a file using `ObjectInputStream`.
+
+```bash
+javac Deserialization/*.java
+java Deserialization.Main
+```
+
+</details>
+
+<details>
 <summary><b>Games (projects)</b></summary>
 
 ```bash
@@ -406,6 +432,8 @@ HangManGame loads its word list from `projects/words.txt`—keep that file along
 - ✅ Enumerated types for type-safe constants
 - ✅ Creating threads with `Runnable` interface
 - ✅ Multithreading basics (Thread, Runnable)
+- ✅ Serialization of objects to files
+- ✅ Deserialization of objects from files
 - ✅ User-input-driven console games
 
 ## 📁 Project Structure
@@ -482,6 +510,13 @@ OOP/
 ├── MultiThreading/         # Multithreading examples
 │   ├── Main.java
 │   └── MultiRunnable.java
+├── Serialization/          # Serializing objects to files
+│   ├── Main.java
+│   ├── User.java
+│   └── UserInfo.ser
+├── Deserialization/        # Deserializing objects from files
+│   ├── Main.java
+│   └── User.java
 ├── ObjectAndClass/         # Basic class and object creation
 │   ├── Demo.java
 │   └── Student.java
